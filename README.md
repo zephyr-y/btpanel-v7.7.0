@@ -35,6 +35,13 @@ chattr +i /www/server/panel/data/plugin.json
 
 ============================
 
+ 一键执行
+```
+curl -s https://raw.githubusercontent.com/zephyr-y/btpanel-v7.7.0/main/onekey.sh | bash
+```
+
+============================
+
 ！！如需取消屏蔽手机号
 
 ```
