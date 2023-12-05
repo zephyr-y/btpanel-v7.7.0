@@ -35,14 +35,14 @@ chattr +i /www/server/panel/data/plugin.json
 
 ============================
 
- 一键执行
+ ## 一键执行
 ```
 curl -s https://raw.githubusercontent.com/zephyr-y/btpanel-v7.7.0/main/onekey.sh | bash
 ```
 
 ============================
 
-！！如需取消屏蔽手机号
+## ！！如需取消屏蔽手机号
 
 ```
 sed -i "s|if (bind_user == 'REMOVED') {|if (bind_user == 'True') {|g" /www/server/panel/BTPanel/static/js/index.js
